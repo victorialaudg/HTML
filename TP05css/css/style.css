@@ -1,0 +1,355 @@
+body{
+	margin:0;
+	padding: 0;
+}
+#fondocolor {
+    background-image: url("http://previews.123rf.com/images/rulizgi/rulizgi1411/rulizgi141100084/33385593-Maltratadas-vieja-pared-de-madera-azul-Textura-del-fondo-Foto-de-archivo.jpg");
+	width: 100%;
+	height: 330px;
+	z-index: -1;
+	position: absolute;
+}
+
+.grilla{
+	max-width: 80%;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+}
+
+ul#menuppal{
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	width: 50%;
+	float: right;
+	line-height: 45px;
+}
+ul#menuppal li{
+	display: inline-block;
+	width: 35%;
+	text-align: right;
+
+}
+ul#menuppal li a{
+	color: #9a999e;
+	text-transform: uppercase;
+
+}
+ul#menuppal li a:hover{
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+form[name="formulario"] {
+	margin: 0 auto;
+	z-index: 2;
+}
+input[type="search"] {
+	width: 73%;
+	height: 70px;
+}
+input[type="button"] {
+	width: 20%;
+	height: 70px;
+	background-color: #00adf2;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	margin-top: 290px;
+}
+.txtppal{
+	max-width: 25%;
+	height: 100px;
+	position: relative;
+	top: 15%;
+	left: 20%;
+	z-index: 5;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.txtppal p{
+	font-size: 0.8em;
+	line-height: 2.3em;
+	color: white;
+}
+ul.listaimagenes{
+	margin-top: 10%;
+}
+ul.listaimagenes li{
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	color: #9a999e;
+	text-align: center;
+	max-width: 20%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.listaimagenes h4{
+	text-transform: uppercase;
+	color: #202a33;
+}
+
+#puntos1{
+	clear: both;
+	margin-left: 48%;
+	display: block;
+}
+h2,h3{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+h2{
+	font-weight: 700;
+	font-size: 2em;
+	color: #19334a;
+}
+h3{
+	font-size: 1.2em;
+	font-weight: 400;
+	color:#9a999e;
+}
+h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #202a33;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.8em;
+	font-weight: 400;
+	color: #9a999e;
+}
+#centrado{
+	margin: 0 auto;
+	width: 80%;
+}
+.listacyan1,.listacyan2{
+	list-style-type: none;
+	max-width: 25%;
+	padding-top: 50px;
+}
+
+#imagencelular {
+	max-width: 30%;
+	display: inline-block;
+	float: left;
+	margin: 3% 2% 0 2%;
+	z-index: 5;
+}
+section.grilla article{
+	position: relative;
+}
+section.grilla article div {
+	max-width: 70%;
+	display: inline-block;
+}
+ul.listacyan1 img.circulos{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+ul.listacyan1, img#imagencelular, ul.listacyan2{
+	float: left;
+}
+ul.listacyan2 img.circulos{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ul.listacyan2 div{
+	position: relative;
+	left: 30%;
+}
+ul.listacyan2{
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+.izq{
+	text-align: right;
+}
+
+.dcha{
+	text-align: left;
+}
+#fondo2{
+	z-index: -1;
+	margin-top: 500px;
+	height: 540px;
+	width: 100%;
+	background-image:url("https://i.ytimg.com/vi/3EtMQ8JMyVw/maxresdefault.jpg");
+	text-align: center;
+	
+}
+img.circulos{
+	padding: 0 2%; 
+}
+#fondo2 article{
+	clear: both;
+	padding-top: 50px;
+}
+
+.precios{
+	text-align: center;
+}
+span.valores{
+	font-family: Arial, sans-serif;
+	font-size: 2.3em;
+	font-weight: 700;
+	color: black;
+}
+sup{
+	vertical-align: super;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+hr{
+	margin-top: 40px;
+}
+
+article.precios{
+	width: 18%;
+	border: 1px solid #9a999e;
+	padding: 10px;
+	background-color: white;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+th {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #9a999e;
+	text-align: left;
+	width: 100%;
+}
+td{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	font-weight: 700;
+	line-height: 2em;
+	text-align: right;
+	width: 10%;
+}
+table{
+	width: 97%;
+	margin: 0 5%;
+}
+div#tablasprecios{
+	padding-top: 20px;
+	clear: both;
+}
+#tablacyan{
+	clear: left;
+}
+#tablacyan td{
+	color: #00aef3;
+}
+#botonesplanes{
+	background-color: #00aef3;
+	color: white;
+	width: 100%;
+	height: 3em;
+	margin-top: 10px;
+	text-transform: uppercase;
+	border-radius: 8px;
+}
+#botonesplanes:hover{
+	background-color: #272727;
+}
+#tablaamarilla td{
+	color: #efe20b;
+}
+#tablanaranja td{
+	color: #f58212;
+}
+#tablaroja td{
+	color: red;
+}
+#tablasprecios article{
+	display: inline-block;
+}
+h4.titutablas{
+	margin-top: 40px;
+}
+#tablasprecios{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+}
+footer{
+	width: 100%;
+	background: #091722;
+	height: 220px;
+	margin-top: 300px;
+}
+div#claro{
+	background-color: #142e3f;
+	height:140px;
+	width: 100%;
+}
+.titufooter{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: white;
+	vertical-align: middle;
+	padding-top: 55px;
+	text-align: center;
+}
+.h3cyan{
+	color: cyan;
+	font-weight: 700;
+
+}
+div#oscuro{
+	font-family: 'Raleway', sans-serif;
+	height: 60px;
+	margin: 0;
+	width: 100%;
+	color: white;
+	position: relative;
+	
+}
+div#oscuro ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 0.8em;
+
+
+	}
+div#oscuro ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;	
+	float: right;
+}
+.flechita{
+	font-size: 2em;
+	font-weight: 700;
+}
+footer p,nav#final{
+	display: inline-block;
+	}
+
+footer div.grilla{
+	width: 65%;
+	margin: 0 auto;
+}
+p.fin{
+	width: 70%;
+}
+nav#final{
+	text-align: right;
+}
+#final li a:hover{
+	color: cyan;
+}
