@@ -1,0 +1,71 @@
+body{
+	background-color: #f2f2f2;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+h2{
+	background-color: #222;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: normal;
+}
+
+/*selector universal*/
+*{
+	box-sizing: border-box;
+}
+.container{
+	border: solid 5px #333;
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+/*selector de atributos*/
+[class*=box-]{
+	padding: 15px;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 0 0 5px #000;
+	color: white;
+}
+
+.box-01{background-color: blue;}
+.box-02{background-color: yellow;}
+.box-03{background-color: orange;}
+.box-04{background-color: green;}
+.box-05{background-color: pink;}
+.box-06{background-color: olive;}
+.box-07{background-color: red;}
+.box-08{background-color: gray;}
+.box-09{background-color: violet;}
+.box-10{background-color: aqua;}
+
+
+/*propiedad para convertir contenedor en flexbox*/
+.flx{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	height: 400px;
+	/*align-items: flex-end;
+	align-items: flex-start;
+	*/
+}
+.flx [class*=box-]{
+	width: 20%;
+	order: 999;
+}
+.box-10{
+	order:1 !important;
+}
+.box-05{
+	order:3 !important;
+	align-self: flex-end;
+}
+.box-07{
+	order:2 !important;
+}
